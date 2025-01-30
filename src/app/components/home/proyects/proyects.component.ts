@@ -10,52 +10,57 @@ import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
 export class ProyectsComponent implements OnInit {
   Projects = [
 
-    // {
-      
-    //   imgs:[
-    //     '../../../../assets/images/commerce-platform/admin/9.PNG',
-    //     '../../../../assets/images/commerce-platform/admin/1.PNG',
-    //     '../../../../assets/images/commerce-platform/admin/2.PNG',
-    //     '../../../../assets/images/commerce-platform/admin/3.PNG',
-    //     '../../../../assets/images/commerce-platform/admin/4.PNG',
-    //     '../../../../assets/images/commerce-platform/admin/5.PNG',
-    //     '../../../../assets/images/commerce-platform/admin/6.PNG',
-    //     '../../../../assets/images/commerce-platform/admin/7.PNG',
-    //     '../../../../assets/images/commerce-platform/admin/8.PNG',
-
-
-
-    //     '../../../../assets/images/commerce-platform/employee/5.PNG',
-    //     '../../../../assets/images/commerce-platform/employee/1.PNG',
-    //     '../../../../assets/images/commerce-platform/employee/2.PNG',
-    //     '../../../../assets/images/commerce-platform/employee/3.PNG',
-    //     '../../../../assets/images/commerce-platform/employee/4.PNG',
-
-
-    //     '../../../../assets/images/commerce-platform/applicant/5.PNG',
-    //     '../../../../assets/images/commerce-platform/applicant/1.PNG',
-    //     '../../../../assets/images/commerce-platform/applicant/2.PNG',
-    //     '../../../../assets/images/commerce-platform/applicant/3.PNG',
-    //     '../../../../assets/images/commerce-platform/applicant/4.PNG',
+    {
+      imgs:[
+      '../../../../assets/images/Weather_ForeCast/Weather_ForeCast.png',
        
+        ],
+      Title:'Platform For The Faculty Of Commerce',
+      Description:`we designed and developed a comprehensive online platform for the Faculty of Commerce,
+      streamlining the application process for master's and professional diploma programs
+      This platform enables students to submit applications online and provides realtime application
+      status tracking until final approval.
+      It also facilitates efficient file uploads and processing by staff, ultimately leading to student
+      acceptance
+      Additionally, the system allows accepted students to view available subjects within their chosen
+      diploma and select their preferred courses`,
+      Technologies:['Angular','SCSS','Angular-Material' , 'RxJS', 'NodeJs'],
+      ghLink:'https://github.com/bazighaliminhas/Bazigh_Weather_ForeCast',
+      demoLink:'https://bazigh-weather-fore-cast.vercel.app/'
+    },
 
 
 
+    {
+      
+      imgs:[
+        '../../../../assets/images/eSoftage_Soltuion/eSoftageSolution.png',
+        ],
+      Title:'eSoftage Solution',
+      Description:"The e-commerce project you're working on includes essential functionalities for both users and admins. Users can browse products, add them to their cart, proceed to checkout where they input their information, and submit their order. On the admin side, there's a panel for managing orders, viewing details, and updating order statuses. This setup ensures a seamless experience for both purchasing customers and administrative staff, facilitating efficient order management and customer service using firbase.",
+      Technologies:['Angular','SCSS','Angular-Material' , 'RxJS', 'firebase'],
+      ghLink:'https://github.com/bazighaliminhas/EsoftageSolution',
+      demoLink:'https://esoftage-solution.vercel.app'
+    },
 
-    //     ],
-    //   Title:'Platform For The Faculty Of Commerce',
-    //   Description:`we designed and developed a comprehensive online platform for the Faculty of Commerce,
-    //   streamlining the application process for master's and professional diploma programs
-    //   This platform enables students to submit applications online and provides realtime application
-    //   status tracking until final approval.
-    //   It also facilitates efficient file uploads and processing by staff, ultimately leading to student
-    //   acceptance
-    //   Additionally, the system allows accepted students to view available subjects within their chosen
-    //   diploma and select their preferred courses`,
-    //   Technologies:['Angular','SCSS','Angular-Material' , 'RxJS', 'NodeJs'],
-    //   ghLink:'https://github.com/loayeldin/commerce-platform',
-    //   demoLink:'https://commerce-platform.vercel.app'
-    // },
+    {
+      imgs:[
+      '../../../../assets/images/Bazigh_AliPortFolio/Bazigh_AliPortFolio.png',
+       
+        ],
+      Title:'PortFolio',
+      Description:`we designed and developed a comprehensive online platform for the Faculty of Commerce,
+      streamlining the application process for master's and professional diploma programs
+      This platform enables students to submit applications online and provides realtime application
+      status tracking until final approval.
+      It also facilitates efficient file uploads and processing by staff, ultimately leading to student
+      acceptance
+      Additionally, the system allows accepted students to view available subjects within their chosen
+      diploma and select their preferred courses`,
+      Technologies:['Angular','SCSS','Angular-Material' , 'RxJS', 'NodeJs'],
+      ghLink:'https://github.com/bazighaliminhas/Bazigh_AliPortFolio',
+      demoLink:'https://bazigh-ali-port-folio.vercel.app/'
+    },
 
 
 
